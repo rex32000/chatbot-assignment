@@ -32,7 +32,7 @@ def chat(req: ChatRequest):
             "text": user_message
         })
 
-        reply = generate_reply(CHAT_HISTORY[session])
+        reply = generate_reply(user_message, CHAT_HISTORY[session])
 
         CHAT_HISTORY[session].append({
             "role": "model",
