@@ -1,9 +1,10 @@
 # chatbot-assignment
 Chatboot assignment
 
-- Uses gemini 2.0-flash for responding to users query
-- FASSIS in memory vector embedding used for storing the knowledge base
-- Added a simple gaurdrail to be an additional llm which just checks for the text if it is offensive or illegal
+- Using gemini 2.0-flash for responding to users query
+- FASSIS in memory vector embedding for storing the knowledge base
+- HuggingFaceEmbeddings for creating the embeddings
+- Added a simple guardrail to be an additional llm which just checks for the text if it is offensive or illegal
 - Added fast API with 2 endpoints: chat, health
 
 
