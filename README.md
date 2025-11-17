@@ -12,7 +12,7 @@ Chatboot assignment
 
 ```
 docker build -t chat .
-docket run -p 8000:8000 chat
+docker run -p 8000:8000 chat
 ```
 
 ### Requests
